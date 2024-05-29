@@ -1,0 +1,25 @@
+.courseScreen__card {
+  display: flex;
+  overflow-x: scroll;
+  animation-name: change;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.courseScreen__card::-webkit-scrollbar {
+  display: none;
+}
+
+/* @media (max-width: 768px) {
+  .courseScreen__card {
+    flex-direction: column;
+    height: 80vh;
+    justify-content: space-around;
+
+  }
+  .cardNav {
+    display: none;
+  }
+  
+} */
