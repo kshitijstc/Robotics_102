@@ -5,7 +5,6 @@ import closeButton from "../assets/close.svg";
 import { WeekTask, courseData } from "../data/courseData";
 import YoutubeLink from "./YoutubeLink";
 import roboClubImage from '../assets/robo_club.png';
-// import {Accordion,AccordionItemPanel,AccordionItemButton,AccordionItemHeading,AccordionItem} from "react-accessible-accordion";
 
 function Popup({ expand, setExpand, cardNo }) {
   const { title, bgLeft, bgRight, colorLeft } = popupDetails[cardNo - 1];
@@ -128,12 +127,13 @@ function Popup({ expand, setExpand, cardNo }) {
     );
   }
 
-  const WeekElement1 = ({ weekNo, index, task }) => {
+  const WeekElement1 = ({ weekNo, index, task, bgRight }) => {
     const [showContent, setShowContent] = useState(false);
     const { heading, resources } = weekData[index];
     const handleClick = () => {
       setShowContent(!showContent);
     };
+
     return (
       <div
         className="popup__right_weekElement px-5 py-2"
@@ -185,10 +185,10 @@ function Popup({ expand, setExpand, cardNo }) {
                     {resources.map((resource, ind)=>{
                       let { title, links } = resource;
                       return(
-                      //how to get the specified color upon hovering in the div
+                      
                       <div
                           key={ind}
-                          className=" flex-row py-5 px-10  border border-black rounded-sm hover:bg-red-200"
+                          className={` flex-row py-5 px-10  border border-black rounded-sm hover:bg-[${bgRight}]`}
                         >
                           {links.map((link, index) => {
                             if (link.includes("youtu")) {
@@ -199,8 +199,8 @@ function Popup({ expand, setExpand, cardNo }) {
                                   ) : (
                                     <h1 className="text-lg flex-1 w-14">{""}</h1>
                                   )}
-                                  <div className="flex-[3_3_0%] flex-wrap gap-1  py-2  border-l border-black">
-                                    <div className=" pl-1 ml-2">
+                                  <div className="flex-[2_2_0%] flex-wrap gap-1  py-2  border-l border-black">
+                                    <div className=" pl-1 ml-2" >
                                       <YoutubeLink key={index} link={link} />
                                     </div>
                                   </div>
@@ -215,7 +215,7 @@ function Popup({ expand, setExpand, cardNo }) {
                                       {title} :
                                     </h1>
                                   )}
-                                  <a className=" course-link cursor-pointer underline text-gray-700 pl-2 ml-2 flex-[3_3_0%] border-l border-black"
+                                  <a className=" course-link cursor-pointer underline text-gray-700 pl-2 ml-2 flex-[2_2_0%] border-l border-black"
                                     href={link[1]}
                                     target="_blank"
                                     rel="noreferrer"
@@ -388,7 +388,7 @@ function Popup({ expand, setExpand, cardNo }) {
             <h2>02</h2>
             <hr className="border-gray-300 " />
             <h1>TASK LIST</h1>
-            <div className="popup__right_weekElementContainer space-y-4 my-4">
+            {/* <div className="popup__right_weekElementContainer space-y-4 my-4">
               <WeekElement weekNo={"01"} index={0} />
               <WeekElement weekNo={"01"} index={0} task={true} />
               <WeekElement weekNo={"02"} index={1} />
@@ -396,14 +396,14 @@ function Popup({ expand, setExpand, cardNo }) {
               <WeekElement weekNo={"03"} index={2} />
               <WeekElement weekNo={"03"} index={2} task={true} />
             </div>
-            <hr className="border-black-500"></hr>
+            <hr className="border-black-500"></hr> */}
             <div className="popup__right_weekElementContainer space-y-4 my-4">
-              <WeekElement1 weekNo={"01"} index={0} />
-              <WeekElement1 weekNo={"01"} index={0} task={true} />
-              <WeekElement1 weekNo={"02"} index={1} />
-              <WeekElement1 weekNo={"02"} index={1} task={true} />
-              <WeekElement1 weekNo={"03"} index={2} />
-              <WeekElement1 weekNo={"03"} index={2} task={true} />
+              <WeekElement1 weekNo={"01"} index={0} bgRight={bgRight}/>
+              <WeekElement1 weekNo={"01"} index={0} task={true} bgRight={bgRight}/>
+              <WeekElement1 weekNo={"02"} index={1} bgRight={bgRight}/>
+              <WeekElement1 weekNo={"02"} index={1} task={true} bgRight={bgRight}/>
+              <WeekElement1 weekNo={"03"} index={2} bgRight={bgRight}/>
+              <WeekElement1 weekNo={"03"} index={2} task={true} bgRight={bgRight}/>
             </div>
           </div>
           <div className="popup__right_item mt-14 m-10 space-y-2">
@@ -426,3 +426,6 @@ function Popup({ expand, setExpand, cardNo }) {
 }
 
 export default Popup;
+
+
+

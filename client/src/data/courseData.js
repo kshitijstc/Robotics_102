@@ -1,5 +1,206 @@
 export const courseData = [
   {
+  para1:
+      "OpenCV (Open Source Computer Vision) is a popular open-source library that provides a comprehensive set of tools and algorithms for computer vision and image processing tasks. With its extensive collection of functions, OpenCV enables developers to build applications that analyze and manipulate images and videos efficiently. ",
+    para2:
+      "It supports various programming languages such as C++, Python, and Java, making it accessible to a wide range of developers. From basic image",
+    extra:
+      " filtering and feature detection to more advanced tasks like object recognition and tracking, OpenCV empowers researchers and engineers to explore the realms of computer vision and develop cutting-edge applications in areas like robotics, augmented reality, and medical imaging.",
+    weekData: [
+      {
+        // week1
+        heading:
+          "This week, we will be learning to do image processing and create different detection models using an amazing library called OpenCV",
+
+        resources: [
+          {
+            title: "Introduction to IOT",
+            links: [
+              "https://www.youtube.com/watch?v=6mBO2vqLv38",
+              "https://www.youtube.com/watch?v=7DZR5UaAM0E",
+              
+            ],
+          },
+          {
+            title: "IoT Architecture",
+            links: ["https://youtu.be/KeaeuUcw02Q?si=nvcRS-kyLayAq1GP"],
+          },
+          {
+            title: "Introduction to sensors and actuators",
+            links: [
+              [ 
+                "Sensors and Actuators",
+                "https://www.youtube.com/watch?v=IIf7zH5cIX8",
+              ]
+              
+            ],
+          },
+          {
+            title: "Microprocessors and Microcontrollers",
+            links: ["https://youtu.be/jte2S2iWRMI?si=YcxZ8MrgU7_EfynT",
+            "https://youtu.be/xStSCpVTWYQ?si=b91e1AvHgLvDuFXM"],
+          },
+          {
+            title: "What is Arduino",
+            links: ["https://youtu.be/dcNk0urQsQM?si=8V-g7o3SHKkP4qrE","https://youtu.be/VGNVFWheeI4?si=WsTph2mA_U1Ei5ZK"],
+          },
+          {
+            title: "Arduino",
+            links: ["https://youtu.be/I6jIORI7K2k?si=zAOx3sgeTDRCFwiP"],
+          },
+          // {
+          //   title: "Tutorial 4",
+          //   links: ["https://youtu.be/rKcwcARdg9M"],
+          // },
+          // {
+          //   title: "Tutorial 5",
+          //   links: ["https://youtu.be/bPSfyK_DJAg"],
+          // },
+          // {
+          //   title: "Tutorial 6",
+          //   links: ["https://youtu.be/ddSo8Nb0mTw"],
+          // },
+          // {
+          //   title: "Tutorial 7",
+          //   links: ["https://youtu.be/I7lCpTOfxF4"],
+          // },
+          // {
+          //   title: "Tutorial 8",
+          //   links: ["https://youtu.be/T-0lZWYWE9Y"],
+          // },
+          // {
+          //   title: "Tutorial 9",
+          //   links: ["https://youtu.be/mPCZLOVTEc4"],
+          // },
+          // {
+          //   title: "Extra",
+          //   links: ["https://youtu.be/oXlwWbU8l2o"],
+          // },
+          // {
+          //   title: "Official Documentation",
+          //   links: [
+          //     [
+          //       "Documentation",
+          //       "https://docs.opencv.org/4.x/d9/df8/tutorial_root.html",
+          //     ],
+          //   ],
+          // },
+        ],
+      },
+      {
+        heading:
+          "Things will get spicy this week as we will be learning some exciting topics including feature detection, object tracking, along with Introduction to Convolutional Neural Networks.",
+        resources: [
+          {
+            title: "Tinkercad",
+            links: [
+              "https://youtu.be/4L8ViGqaZbE?si=NYNdpRs0Pdahc9CE",
+              "https://youtu.be/LrOM2GABK1g?si=9HoAwlzSRgASKE63",
+            ],
+          },
+          {
+            title: "Tinkercad basic",
+            links: [
+              "https://youtu.be/QyKVbQH4Hi4?si=Sl6lsFqtgg3-KWe2",
+              "https://youtu.be/fCXWEMNwGkI?si=YVogeSfgyjvoVRD6",
+              "https://youtu.be/YuysnLOROi0?si=ZPqXMJ0BECdacI1v",
+            ],
+          },
+          {
+            title: "Writing and Uploading Code in Tinkercad",
+            links: [
+              "https://youtu.be/Wt0Ky9w2IEQ?si=hqMv_UXEJd1Z0q9x",
+              "https://youtu.be/SH3BOd3WPCw?si=4ais1mex8eOYDsIc",
+              "https://youtu.be/cmc-BPtkdAU?si=F-zbWi6Fsg4-PRSS",
+            ],
+          },
+          // {
+          //   title: "Tutorial 3 -Image Segmentation :",
+          //   links: [
+          //     "https://www.youtube.com/watch?v=onWJQY5oFhs&list=PL2zRqk16wsdop2EatuowXBX5C-r2FdyNt",
+          //   ],
+          // },
+          // {
+          //   title: "Tutorial 4 -Object Tracking and Flow: ",
+          //   links: [
+          //     "https://www.youtube.com/playlist?list=PL2zRqk16wsdoYzrWStffqBAoUY8XdvatV",
+          //   ],
+          // },
+          // {
+          //   title: "Extra Material",
+          //   links: ["https://www.youtube.com/watch?v=GgGro5IV-cs"],
+          // },
+          // {
+          //   title: "Tutorial 5 - Intro to Neural Networks: ",
+          //   links: ["https://www.youtube.com/watch?v=aircAruvnKk"],
+          // },
+          // {
+          //   title: "Tutorial 6 - CNN: ",
+          //   links: [
+          //     "https://www.youtube.com/watch?v=QzY57FaENXg",
+          //     "https://www.youtube.com/watch?v=aDpnaxPAmtU&list=RDCMUCh9nVJoWXmFb7sLApWGcLPQ&index=1",
+          //     "https://www.youtube.com/watch?v=zfiSAzpy9NM&list=RDCMUCh9nVJoWXmFb7sLApWGcLPQ&index=2",
+          //   ],
+          // },
+        ],
+      },
+      {
+        heading:
+          "Congratulations, You can call yourself a Computer Vision Specialist now. Go on you can brag about it in front of friends. But, the real journey begins from here. So practice well and best of luck for your final task and future endeavors. Hope you enjoyed the coursework!",
+        resources: [
+          {
+            title: "ultrasonic",
+            links: ["https://youtu.be/dgQuT0zOOpc?si=tb8jGnMVCAQCmrI9"],
+          },
+          {
+            title: "Fire",
+            links: ["https://youtu.be/fwwI4R_97DI?si=CDTZ6XEEqTabiDZA"],
+          },
+          {
+            title: "IR servo",
+            links: ["https://youtu.be/B6ad4jct64I?si=KQ982_lg-MVG_-rG",
+            "https://youtu.be/_UsZZ2c_324?si=qJ_82gOW0OpctJkb"
+            ],
+          },
+          {
+            title: "Rpi",
+            links: ["https://youtu.be/T1ZHOUpDZFw?si=3RswiVqLpr4Ps74X",
+            "https://youtu.be/1-MCqinc26k?si=cIbqjPUqjjRMYMtt"
+            
+          ],
+          },
+          {
+            title: "future",
+            links: ["https://youtu.be/OfGxbxUCa2k?si=Vl8hResCtUSEzr_S"],
+          },
+          {
+            title: "Summary",
+            links: ["https://youtu.be/jPOAS7uCODQ"],
+          },
+          // {
+          //   title: "Tutorial 7",
+          //   links: ["https://youtu.be/3PyJA9AfwSk"],
+          // },
+          // {
+          //   title: "Tutorial 8",
+          //   links: ["https://youtu.be/8oOgPUO-TBY"],
+          // },
+          // {
+          //   title: "Tutorial 9",
+          //   links: ["https://youtu.be/bXJx7y51cl0"],
+          // },
+          // {
+          //   title: "Extra Tutorial",
+          //   links: [
+          //     "https://youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF",
+          //   ],
+          // },
+        ],
+      },
+      {},
+    ],
+  },
+  {
     para1:
       "OpenCV (Open Source Computer Vision) is a popular open-source library that provides a comprehensive set of tools and algorithms for computer vision and image processing tasks. With its extensive collection of functions, OpenCV enables developers to build applications that analyze and manipulate images and videos efficiently. ",
     para2:

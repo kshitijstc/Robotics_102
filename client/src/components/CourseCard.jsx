@@ -10,7 +10,7 @@ function CourseCard({ title, cardNo, bgColor, color }) {
     title.substring(title.indexOf(" ") + 1),
   ];
   const prevCardNo = cardNo !== 1 ? cardNo - 1 : null;
-  const nextCardNo = cardNo !== 4 ? cardNo + 1 : null;
+  const nextCardNo = cardNo !== 5 ? cardNo + 1 : null;
   const numStyle = {
     WebkitTextStroke: `2px ${color}`,
     MozTextStroke: `2px ${color}`,

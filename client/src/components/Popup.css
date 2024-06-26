@@ -103,18 +103,7 @@
   font-family: Furore;
   line-height: 90%;
 }
-.madarchod0:hover{
-  background-color: '#FF6565';
-}
-.madarchod1:hover{
-  background-color: '#EA1B0E';
-}
-.madarchod2:hover{
-  background-color: '#BF4C6B';
-}
-.madarchod3:hover{
-  background-color: '#604442';
-}
+
 .course-link:hover{
   animation: dim 200ms linear 0s 1 alternate forwards;
 }
