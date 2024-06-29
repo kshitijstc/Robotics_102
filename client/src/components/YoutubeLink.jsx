@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 
-function YoutubeLink({link}) {
+const YoutubeLink = ({link}) => {
   const [titleVal, setTitleVal] = useState("Fetching data...");
   useEffect(() => {
     const fetchData = async () => {
@@ -16,6 +16,5 @@ function YoutubeLink({link}) {
   return (
     <a className='course-link underline text-gray-700' href={link} target="_blank" rel="noreferrer">{"-"}{titleVal}</a>
   )
-}
-
-export default YoutubeLink
+};
+export default YoutubeLink;
