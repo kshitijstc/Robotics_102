@@ -1,7 +1,7 @@
 export const cardDetails = [
-  {title:'INTERNET OF THINGS',bgColor:'#D4B6D4',color:'#B595BF'},
-  {title:'COMPUTER VISION',bgColor:'#F7ACAC',color:'#EA1B0E'},
-  {title:'OPERATING ROS',bgColor:'#FFD249',color:'#EA1B0E'},
+  {title:'INTERNET OF THINGS',bgColor:'#F7ACAC',color:'#EA1B0E'},
+  {title:'COMPUTER VISION',bgColor:'#FFD249',color:'#EA1B0E'}, 
+  {title:'OPERATING ROS',bgColor:'#D4B6D4',color:'#B595BF'}, 
   {title:'STRUCTURE ANSYS',bgColor:'#E27391',color:'#BF4C6B'},
   {title:'AUTOCAD FUSION 360',bgColor:'#B09675',color:'#604442'},
 ];
@@ -9,21 +9,21 @@ export const cardDetails = [
 export const popupDetails = [
   {
     title:'INTERNET OF THINGS',
-    bgLeft:'#F4DFF4',
-    bgRight:'#B595BF',
-    colorLeft:'#B595BF'
-  },
-  {
-    title:'COMPUTER VISION',
     bgLeft:'#F5EDE5',
     bgRight:'#F7ACAC',
     colorLeft:'#FF6565'
   },
   {
-    title:'ROBOT OPERATING SYSTEM',
+    title:'COMPUTER VISION',
     bgLeft:'#FFF6DC',
     bgRight:'#FFD249',
     colorLeft:'#EA1B0E'
+  },
+  {
+    title:'ROBOT OPERATING SYSTEM',
+    bgLeft:'#F4DFF4',
+    bgRight:'#B595BF',
+    colorLeft:'#B595BF'
   },
   {
     title:'ANSYS',
