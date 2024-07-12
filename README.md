@@ -1,9 +1,9 @@
 # Robotics 102
 
 ## Overview
-- Briefly describe what Robotics 102 is about and its objectives. Provide context for the repository and its purpose.
+- This website aims to provide a comprehensive educational platform offering various robotics-related courses, including IoT, ROS (Robot Operating System), OpenCV (Open Source Computer Vision Library), and Fusion 360.
 - Explore Robotics 102 Website:  https://robotics-102-iitg.vercel.app/
-- 
+  
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
