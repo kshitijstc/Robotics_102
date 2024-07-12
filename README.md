@@ -11,7 +11,7 @@
 - [Installation](#installation)
 
 ## Features
-- Detailed course listings for IoT, ROS, OpenCV, and Fusion 360.
+- Detailed course listings for IoT, ROS, OpenCV, Fusion 360 and Ansys.
 - Interactive course switching through clickable images on the landing page.
 - Leaderboard to track course progress and achievements.
 - Detailed course pages with comprehensive information and resources.
