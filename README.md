@@ -55,5 +55,13 @@ Make sure to replace <b>'your-github-username'</b> with your actual GitHub usern
 git clone https://github.com/<your-github-username>/Robotics_102.git
 cd Robotics_102
 ```
-
+### Install Dependencies
+```sh
+npm install
+```
+### Run the Application
+```sh
+npm start
+```
+This will start the development server. Open your browser and navigate to `http://localhost:3000` to view the application.
 
