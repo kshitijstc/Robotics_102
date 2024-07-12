@@ -34,7 +34,7 @@ Click on the centre image to see the courses.
 
 
 ### 3. Task List
-Click on any memory to see its details and view comments from other users.
+Click on any week whose resources you want to see.
 
 <img src="https://github.com/user-attachments/assets/b949f28c-a171-43dc-bf65-aba6a3181edc" alt="Screenshot" style="width: 600px; height: auto;">
 <img src="https://github.com/user-attachments/assets/116d4f8a-fa51-4dec-85f2-7d135e883090" alt="Screenshot" style="width: 600px; height: auto;">
