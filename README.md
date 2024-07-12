@@ -21,7 +21,7 @@ This is the landing page where you can see the courses. You can click on the ima
 
 <img src="https://github.com/user-attachments/assets/d871ad7d-63e3-43b5-b05f-04e2b60d3dd9" alt="Screenshot" style="width: 600px; height: auto;"><br>
 <img src="https://github.com/user-attachments/assets/93900ff0-7571-4850-9351-bd2000c463e7" alt="Screenshot" style="width: 250px; height: auto;">
-<img src="https://github.com/user-attachments/assets/d02b6fd5-9e60-48ab-80cb-4b67a969431d" alt="Screenshot" style="width: 250px; height: auto;">
+<img src="https://github.com/user-attachments/assets/d02b6fd5-9e60-48ab-80cb-4b67a969431d" alt="Screenshot" style="width: 250px; height: auto;"><br>
 <img src="https://github.com/user-attachments/assets/cb4a8ebe-7e5f-4471-b0ce-78a08fbac322" alt="Screenshot" style="width: 250px; height: auto;">
 <img src="https://github.com/user-attachments/assets/8883f31a-9f40-4c03-84c2-26812908eb1b" alt="Screenshot" style="width: 250px; height: auto;">
 
