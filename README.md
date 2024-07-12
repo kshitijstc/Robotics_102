@@ -11,7 +11,9 @@
 - [Installation](#installation)
 
 ## Features
-List the key features of the Robotics 102 project. What functionalities does it offer? What can users or developers do with it?
+-
+-
+-
 
 ## Screenshots
 ### 1. Landing Page
