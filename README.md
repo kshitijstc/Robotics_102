@@ -8,7 +8,6 @@
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
 
 ## Features
 List the key features of the Robotics 102 project. What functionalities does it offer? What can users or developers do with it?
