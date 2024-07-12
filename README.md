@@ -2,14 +2,13 @@
 
 ## Overview
 - Briefly describe what Robotics 102 is about and its objectives. Provide context for the repository and its purpose.
-- <b>Explore Robotics 102 Website:</b> https://robotics-102-iitg.vercel.app/
+- Explore Robotics 102 Website:  https://robotics-102-iitg.vercel.app/
+- 
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 List the key features of the Robotics 102 project. What functionalities does it offer? What can users or developers do with it?
