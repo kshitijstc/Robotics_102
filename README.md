@@ -6,14 +6,18 @@
   
 ## Table of Contents
 - [Features](#features)
+- [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 
 ## Features
 List the key features of the Robotics 102 project. What functionalities does it offer? What can users or developers do with it?
 
+## Screenshots
+
+
 ## Technologies Used
-Outline the technologies, frameworks, libraries, and tools used in the project. This helps others understand the tech stack at a glance.
+
 
 ## Installation
 Provide step-by-step instructions on how to install and set up the project locally. Include any prerequisites or dependencies that need to be installed beforehand.
