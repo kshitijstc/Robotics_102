@@ -17,7 +17,7 @@
 
 ## Screenshots
 ### 1. Landing Page
-This is the landing page where you can see the courses. You can click on the image on the mid right and mid left to switch between different courses
+This is the landing page where you can see the courses. You can click on the images on the mid right and mid left to switch between different courses.
 
 <img src="https://github.com/user-attachments/assets/d871ad7d-63e3-43b5-b05f-04e2b60d3dd9" alt="Screenshot" style="width: 600px; height: auto;"><br>
 <img src="https://github.com/user-attachments/assets/93900ff0-7571-4850-9351-bd2000c463e7" alt="Screenshot" style="width: 250px; height: auto;">
@@ -27,10 +27,11 @@ This is the landing page where you can see the courses. You can click on the ima
 
 
 
-### 2. Upload and Manage Memories
-After signing in, you can upload your own memories, edit or delete them, and like other users' memories.
+### 2. Details of Course
+Click on the centre image to see the courses.
 
-<img src="https://github.com/user-attachments/assets/959bb968-8b97-47ff-ac5a-fcde28f8e83a" alt="Screenshot" style="width: 600px; height: auto;">
+<img src="https://github.com/user-attachments/assets/f08aab52-a9c1-4c2b-8ecc-fea2cb3c5011" alt="Screenshot" style="width: 600px; height: auto;">
+
 
 ### 3. Memory Details and Comments
 Click on any memory to see its details and view comments from other users.
@@ -43,7 +44,9 @@ This is the user authentication page with Google authentication for fast and sea
 <img src="https://github.com/user-attachments/assets/f617643c-6726-4a1c-93c3-4e4f2de805ae" alt="Screenshot" style="width: 600px; height: auto;">
 
 ## Technologies Used
-
+- HTML
+- Tailwind CSS
+- ReactJs
 
 ## Installation
 Provide step-by-step instructions on how to install and set up the project locally. Include any prerequisites or dependencies that need to be installed beforehand.
