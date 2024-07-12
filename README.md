@@ -28,7 +28,7 @@ This is the landing page where you can see the courses. You can click on the ima
 <img src="https://github.com/user-attachments/assets/8883f31a-9f40-4c03-84c2-26812908eb1b" alt="Screenshot" style="width: 300px; height: auto;">
 
 ### 2. Details of Course
-Click on the centre image to see the courses.
+Click on the centre image to see the course details.
 
 <img src="https://github.com/user-attachments/assets/f08aab52-a9c1-4c2b-8ecc-fea2cb3c5011" alt="Screenshot" style="width: 600px; height: auto;">
 
@@ -48,5 +48,12 @@ Click on any week to view its resources.
 ## Installation
 
 ### Prerequisites
-- Node.js installed on your local machine.
+- Ensure that Node.js installed on your local machine.
+### Clone the Repository
+Make sure to replace <b>'your-github-username'</b> with your actual GitHub username or the username of the repository owner.
+```sh
+git clone https://github.com/<your-github-username>/Robotics_102.git
+cd Robotics_102
+```
+
 
