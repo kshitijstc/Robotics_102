@@ -17,9 +17,9 @@
 
 ## Screenshots
 ### 1. Landing Page
-This is the landing page where you can see the courses.
+This is the landing page where you can see the courses. You can click on the image on the mid right and mid left to switch between different courses
 
-<img src="https://github.com/user-attachments/assets/448aa869-9557-4a7f-9c27-7d3c6035e96a" alt="Screenshot" style="width: 600px; height: auto;">
+<img src="https://github.com/user-attachments/assets/d871ad7d-63e3-43b5-b05f-04e2b60d3dd9" alt="Screenshot" style="width: 600px; height: auto;">
 
 ### 2. Upload and Manage Memories
 After signing in, you can upload your own memories, edit or delete them, and like other users' memories.
