@@ -19,11 +19,11 @@
 ### 1. Landing Page
 This is the landing page where you can see the courses. You can click on the images on the mid right and mid left to switch between different courses.
 
-<img src="https://github.com/user-attachments/assets/d871ad7d-63e3-43b5-b05f-04e2b60d3dd9" alt="Screenshot" style="width: 600px; height: auto;"><br>
-<img src="https://github.com/user-attachments/assets/93900ff0-7571-4850-9351-bd2000c463e7" alt="Screenshot" style="width: 250px; height: auto;">
-<img src="https://github.com/user-attachments/assets/d02b6fd5-9e60-48ab-80cb-4b67a969431d" alt="Screenshot" style="width: 250px; height: auto;"><br>
-<img src="https://github.com/user-attachments/assets/cb4a8ebe-7e5f-4471-b0ce-78a08fbac322" alt="Screenshot" style="width: 250px; height: auto;">
-<img src="https://github.com/user-attachments/assets/8883f31a-9f40-4c03-84c2-26812908eb1b" alt="Screenshot" style="width: 250px; height: auto;">
+<img src="https://github.com/user-attachments/assets/d871ad7d-63e3-43b5-b05f-04e2b60d3dd9" alt="Screenshot" style="width: 604px; height: auto;"><br>
+<img src="https://github.com/user-attachments/assets/93900ff0-7571-4850-9351-bd2000c463e7" alt="Screenshot" style="width: 300px; height: auto;">
+<img src="https://github.com/user-attachments/assets/d02b6fd5-9e60-48ab-80cb-4b67a969431d" alt="Screenshot" style="width: 300px; height: auto;"><br>
+<img src="https://github.com/user-attachments/assets/cb4a8ebe-7e5f-4471-b0ce-78a08fbac322" alt="Screenshot" style="width: 300px; height: auto;">
+<img src="https://github.com/user-attachments/assets/8883f31a-9f40-4c03-84c2-26812908eb1b" alt="Screenshot" style="width: 300px; height: auto;">
 
 
 
@@ -33,15 +33,12 @@ Click on the centre image to see the courses.
 <img src="https://github.com/user-attachments/assets/f08aab52-a9c1-4c2b-8ecc-fea2cb3c5011" alt="Screenshot" style="width: 600px; height: auto;">
 
 
-### 3. Memory Details and Comments
+### 3. Task List
 Click on any memory to see its details and view comments from other users.
 
-<img src="https://github.com/user-attachments/assets/ce801126-79ee-4c18-acfd-ebda225302cf" alt="Screenshot" style="width: 600px; height: auto;">
+<img src="https://github.com/user-attachments/assets/b949f28c-a171-43dc-bf65-aba6a3181edc" alt="Screenshot" style="width: 600px; height: auto;">
+<img src="https://github.com/user-attachments/assets/116d4f8a-fa51-4dec-85f2-7d135e883090" alt="Screenshot" style="width: 600px; height: auto;">
 
-### 4. User Authentication
-This is the user authentication page with Google authentication for fast and seamless authorization.
-
-<img src="https://github.com/user-attachments/assets/f617643c-6726-4a1c-93c3-4e4f2de805ae" alt="Screenshot" style="width: 600px; height: auto;">
 
 ## Technologies Used
 - HTML
