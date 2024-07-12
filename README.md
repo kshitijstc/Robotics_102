@@ -11,9 +11,11 @@
 - [Installation](#installation)
 
 ## Features
--
--
--
+- Detailed course listings for IoT, ROS, OpenCV, and Fusion 360.
+- Interactive course switching through clickable images on the landing page.
+- Leaderboard 
+- Detailed course pages with comprehensive information and resources.
+- Task list for each course week with accessible resources and submission link.
 
 ## Screenshots
 ### 1. Landing Page
@@ -25,8 +27,6 @@ This is the landing page where you can see the courses. You can click on the ima
 <img src="https://github.com/user-attachments/assets/cb4a8ebe-7e5f-4471-b0ce-78a08fbac322" alt="Screenshot" style="width: 300px; height: auto;">
 <img src="https://github.com/user-attachments/assets/8883f31a-9f40-4c03-84c2-26812908eb1b" alt="Screenshot" style="width: 300px; height: auto;">
 
-
-
 ### 2. Details of Course
 Click on the centre image to see the courses.
 
@@ -34,7 +34,7 @@ Click on the centre image to see the courses.
 
 
 ### 3. Task List
-Click on any week whose resources you want to see.
+Click on any week to view its resources.
 
 <img src="https://github.com/user-attachments/assets/b949f28c-a171-43dc-bf65-aba6a3181edc" alt="Screenshot" style="width: 600px; height: auto;">
 <img src="https://github.com/user-attachments/assets/116d4f8a-fa51-4dec-85f2-7d135e883090" alt="Screenshot" style="width: 600px; height: auto;">
@@ -46,11 +46,7 @@ Click on any week whose resources you want to see.
 - ReactJs
 
 ## Installation
-Provide step-by-step instructions on how to install and set up the project locally. Include any prerequisites or dependencies that need to be installed beforehand.
 
-```sh
-git clone https://github.com/kshitijstc/Robotics_102.git
-cd Robotics_102
-# Additional commands for dependencies or environment setup
+### Prerequisites
+- Node.js installed on your local machine.
 
-https://robotics-102-iitg.vercel.app/
