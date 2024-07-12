@@ -13,7 +13,7 @@
 ## Features
 - Detailed course listings for IoT, ROS, OpenCV, and Fusion 360.
 - Interactive course switching through clickable images on the landing page.
-- Leaderboard 
+- Leaderboard to track course progress and achievements.
 - Detailed course pages with comprehensive information and resources.
 - Task list for each course week with accessible resources and submission link.
 
