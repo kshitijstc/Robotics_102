@@ -28,6 +28,10 @@
   width: 100%;
 }
 
+.leaderBoard__stats__mobile{
+  width: 120%;
+}
+
 .leaderBoard__stats_inner {
   display: flex;
   flex-direction: column;

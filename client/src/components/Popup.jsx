@@ -7,6 +7,7 @@ import YoutubeLink from "./YoutubeLink";
 import roboClubImage from '../assets/robo_club.png';
 
 function Popup({ expand, setExpand, cardNo }) {
+  const screenWidth = window.innerWidth;
   const { title, bgLeft, bgRight, colorLeft } = popupDetails[cardNo - 1];
   const { para1, para2, extra, weekData } = courseData[cardNo - 1];
   const stylesLeft = {
@@ -129,7 +130,7 @@ function Popup({ expand, setExpand, cardNo }) {
 
   const WeekElement1 = ({ weekNo, index, task, bgRight }) => {
     const [showContent, setShowContent] = useState(false);
-    const { heading, resources } = weekData[index];
+    const {heading,resources} = weekData[index];
     const handleClick = () => {
       setShowContent(!showContent);
     };
@@ -387,35 +388,39 @@ function Popup({ expand, setExpand, cardNo }) {
           <div className="popup__right_item mt-14 m-10">
             <h2>02</h2>
             <hr className="border-gray-300 " />
+
             <h1>TASK LIST</h1>
-            {/* <div className="popup__right_weekElementContainer space-y-4 my-4">
-              <WeekElement weekNo={"01"} index={0} />
-              <WeekElement weekNo={"01"} index={0} task={true} />
-              <WeekElement weekNo={"02"} index={1} />
-              <WeekElement weekNo={"02"} index={1} task={true} />
-              <WeekElement weekNo={"03"} index={2} />
-              <WeekElement weekNo={"03"} index={2} task={true} />
-            </div>
-            <hr className="border-black-500"></hr> */}
+            {screenWidth > 760 ? 
             <div className="popup__right_weekElementContainer space-y-4 my-4">
               <WeekElement1 weekNo={"01"} index={0} bgRight={bgRight}/>
-              <WeekElement1 weekNo={"01"} index={0} task={true} bgRight={bgRight}/>
-              <WeekElement1 weekNo={"02"} index={1} bgRight={bgRight}/>
-              <WeekElement1 weekNo={"02"} index={1} task={true} bgRight={bgRight}/>
-              <WeekElement1 weekNo={"03"} index={2} bgRight={bgRight}/>
-              <WeekElement1 weekNo={"03"} index={2} task={true} bgRight={bgRight}/>
-            </div>
+              {/* <WeekElement1 weekNo={"01"} index={0} task={true} bgRight={bgRight}/> */}
+              {/* <WeekElement1 weekNo={"02"} index={1} bgRight={bgRight}/> */}
+              {/* <WeekElement1 weekNo={"02"} index={1} task={true} bgRight={bgRight}/> */}
+              {/* <WeekElement1 weekNo={"03"} index={2} bgRight={bgRight}/> */}
+              {/* <WeekElement1 weekNo={"03"} index={2} task={true} bgRight={bgRight}/> */}
+            </div> 
+            : 
+            <div className="popup__right_weekElementContainer space-y-4 my-4">
+              <WeekElement weekNo={"01"} index={0} bgRight={bgRight}/>
+              {/* <WeekElement weekNo={"01"} index={0} task={true} bgRight={bgRight}/> */}
+              {/* <WeekElement weekNo={"02"} index={1} bgRight={bgRight}/> */}
+              {/* <WeekElement weekNo={"02"} index={1} task={true} bgRight={bgRight}/> */}
+              {/* <WeekElement weekNo={"03"} index={2} bgRight={bgRight}/> */}
+              {/* <WeekElement weekNo={"03"} index={2} task={true} bgRight={bgRight}/> */}
+            </div>}
+            
+
+            {/* <hr className="border-black-500"></hr> */}
+
+            
           </div>
           <div className="popup__right_item mt-14 m-10 space-y-2">
             <h2>03</h2>
             <hr className="border-gray-300" />
             <h1>SUBMISSION</h1>
-            <TaskSubmissionElement link={WeekTask[0][4]} weekNo={"01"} />
-            <TaskSubmissionElement
-              link={WeekTask[1][cardNo - 1]}
-              weekNo={"02"}
-            />
-            <TaskSubmissionElement link={WeekTask[2][4]} weekNo={"03"} />
+            <TaskSubmissionElement link={WeekTask[0][cardNo-1]} weekNo={"01"} />
+            {/* <TaskSubmissionElement link={WeekTask[1][cardNo-1]} weekNo={"02"} /> */}
+            {/* <TaskSubmissionElement link={WeekTask[2][cardNo-1]} weekNo={"03"} /> */}
           </div>
         </div>
       </div>

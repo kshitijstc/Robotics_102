@@ -18,16 +18,15 @@ export const courseData = [
               links: [
                 "https://www.youtube.com/watch?v=6mBO2vqLv38",
                 "https://www.youtube.com/watch?v=7DZR5UaAM0E",
-                
               ],
             },
             {
               title: "IoT Architecture",
-              links: ["https://youtu.be/KeaeuUcw02Q?si=nvcRS-kyLayAq1GP"],
+              links: ["https://www.youtube.com/watch?v=KeaeuUcw02Q"],
             },
             {
-              title: "Introduction to sensors and actuators",
-              links: [
+              title:"Introduction to sensors and actuator",
+              links:[
                 [ 
                   "Sensors and Actuators",
                   "https://www.youtube.com/watch?v=IIf7zH5cIX8",
@@ -37,29 +36,17 @@ export const courseData = [
             },
             {
               title: "Microprocessors and Microcontrollers",
-              links: ["https://youtu.be/jte2S2iWRMI?si=YcxZ8MrgU7_EfynT",
-              "https://youtu.be/xStSCpVTWYQ?si=b91e1AvHgLvDuFXM"],
+              links: ["https://www.youtube.com/watch?v=jte2S2iWRMI",
+              "https://www.youtube.com/watch?v=xStSCpVTWYQ"],
             },
             {
               title: "What is Arduino",
-              links: ["https://youtu.be/dcNk0urQsQM?si=8V-g7o3SHKkP4qrE","https://youtu.be/VGNVFWheeI4?si=WsTph2mA_U1Ei5ZK"],
+              links: ["https://www.youtube.com/watch?v=dcNk0urQsQM","https://www.youtube.com/watch?v=VGNVFWheeI4"],
             },
             {
               title: "Arduino",
-              links: ["https://youtu.be/I6jIORI7K2k?si=zAOx3sgeTDRCFwiP"],
+              links: ["https://www.youtube.com/watch?v=I6jIORI7K2k"],
             },
-            // {
-            //   title: "Tutorial 4",
-            //   links: ["https://youtu.be/rKcwcARdg9M"],
-            // },
-            // {
-            //   title: "Tutorial 5",
-            //   links: ["https://youtu.be/bPSfyK_DJAg"],
-            // },
-            // {
-            //   title: "Tutorial 6",
-            //   links: ["https://youtu.be/ddSo8Nb0mTw"],
-            // },
             // {
             //   title: "Tutorial 7",
             //   links: ["https://youtu.be/I7lCpTOfxF4"],
@@ -94,16 +81,15 @@ export const courseData = [
             {
               title: "Tinkercad",
               links: [
-                "https://youtu.be/4L8ViGqaZbE?si=NYNdpRs0Pdahc9CE",
-                "https://youtu.be/LrOM2GABK1g?si=9HoAwlzSRgASKE63",
+                "https://www.youtube.com/watch?v=4L8ViGqaZbE",
+                "https://www.youtube.com/watch?v=QyKVbQH4Hi4",
               ],
             },
             {
               title: "Tinkercad basic",
               links: [
-                "https://youtu.be/QyKVbQH4Hi4?si=Sl6lsFqtgg3-KWe2",
-                "https://youtu.be/fCXWEMNwGkI?si=YVogeSfgyjvoVRD6",
-                "https://youtu.be/YuysnLOROi0?si=ZPqXMJ0BECdacI1v",
+                "https://www.youtube.com/watch?v=fCXWEMNwGkI",
+                "https://www.youtube.com/watch?v=YuysnLOROi0",
               ],
             },
             {
@@ -121,7 +107,7 @@ export const courseData = [
             "Congratulations, You can call yourself an IOT Specialist now. Go on you can brag about it in front of friends. But, the real journey begins from here. So practice well and best of luck for your final task and future endeavors. Hope you enjoyed the coursework!",
           resources: [
             {
-              title: "ultrasonic",
+              title: "Ultrasonic",
               links: ["https://youtu.be/dgQuT0zOOpc?si=tb8jGnMVCAQCmrI9"],
             },
             {
@@ -149,24 +135,7 @@ export const courseData = [
               title: "Summary",
               links: ["https://youtu.be/jPOAS7uCODQ"],
             },
-            // {
-            //   title: "Tutorial 7",
-            //   links: ["https://youtu.be/3PyJA9AfwSk"],
-            // },
-            // {
-            //   title: "Tutorial 8",
-            //   links: ["https://youtu.be/8oOgPUO-TBY"],
-            // },
-            // {
-            //   title: "Tutorial 9",
-            //   links: ["https://youtu.be/bXJx7y51cl0"],
-            // },
-            // {
-            //   title: "Extra Tutorial",
-            //   links: [
-            //     "https://youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF",
-            //   ],
-            // },
+            
           ],
         },
         {},
@@ -361,187 +330,133 @@ export const courseData = [
       {},
     ],
   },
-  {
-    para1:
-      "ROS (Robot Operating System) is a versatile and powerful framework for building and controlling robots. It provides a collection of software libraries and tools that aid in the development of robotic systems, making it easier to create complex and intelligent robots.",
-    para2:
-      "ROS offers a distributed architecture that allows for seamless communication between various components of a robot, such as ",
-    extra:
-      "sensors, actuators, and processors. With its extensive library of pre-built modules, developers can leverage existing functionality and focus on higher-level tasks. Whether you are working on industrial robots, drones, or autonomous vehicles, ROS provides a robust and flexible platform to accelerate your robotics projects.",
-    weekData: [
-      {
-        // week1
-        heading: "",
-        resources: [
-          {
-            title: "Resources",
-            links: [
-              [
-                "Documentation Link",
-                "https://docs.google.com/document/d/1yx4xrxlvkQpZQSTaVmZOS2_bMR3N1iiWbZ7VJILVXK4/edit",
-              ],
-            ],
-          },
-        ],
-      },
-      {
-        // week2
-        heading: "",
-        resources: [
-          {
-            title: "Resources",
-            links: [
-              [
-                "Documentation Link",
-                "https://docs.google.com/document/d/1mZV5PP3J_277JNucLuArqcUUQGPgOHTEkEMBldWI3_I/edit",
-              ],
-            ],
-          },
-        ],
-      },
-      {
-        // week3
-        heading: "",
-        resources: [
-          {
-            title: "Resources",
-            links: [
-              [
-                "Documentation Link",
-                "https://docs.google.com/document/d/1fDa0qD6duaC5RSNsv6jp48iua_-gtW2sC_Tel-sf8RQ/edit",
-              ],
-            ],
-          },
-        ],
-      },
-    ],
-  },
-  {
-    para1:
-      "ANSYS is a leading engineering simulation software that enables engineers and designers to analyze and optimize their products virtually before physical prototyping. ",
-    para2:
-      "With a wide range of specialized tools and modules, ANSYS allows users to simulate and solve complex engineering problems across various industries, including aerospace, automotive, electronics, and manufacturing. Its capabilities cover structural",
-    extra:
-      " analysis, fluid dynamics, electromagnetic simulations, and more. By utilizing ANSYS, engineers can gain insights into product performance, behavior under different conditions, and make informed design decisions. ANSYS's powerful simulation capabilities have become an essential tool in the engineering world, contributing to faster innovation, cost reduction, and improved product reliability.",
-    weekData: [
-      {
-        // week1
-        heading:
-          "This week, we’ll learn how to use the Workbench project page, including how to import, or create and modify the geometry in DesignModeler and Spaceclaim.",
+  
+  // {
+  //   para1:
+  //     "ANSYS is a leading engineering simulation software that enables engineers and designers to analyze and optimize their products virtually before physical prototyping. ",
+  //   para2:
+  //     "With a wide range of specialized tools and modules, ANSYS allows users to simulate and solve complex engineering problems across various industries, including aerospace, automotive, electronics, and manufacturing. Its capabilities cover structural",
+  //   extra:
+  //     " analysis, fluid dynamics, electromagnetic simulations, and more. By utilizing ANSYS, engineers can gain insights into product performance, behavior under different conditions, and make informed design decisions. ANSYS's powerful simulation capabilities have become an essential tool in the engineering world, contributing to faster innovation, cost reduction, and improved product reliability.",
+  //   weekData: [
+  //     {
+  //       // week1
+  //       heading:
+  //         "This week, we’ll learn how to use the Workbench project page, including how to import, or create and modify the geometry in DesignModeler and Spaceclaim.",
 
-        resources: [
-          {
-            title: "Tutorial 0",
-            links: ["https://youtu.be/jeSsayhAgf4"],
-          },
-          {
-            title: "Tutorial 1",
-            links: ["https://youtu.be/UUTQz9Q8AoI"],
-          },
-          {
-            title: "Tutorial 2",
-            links: ["https://youtu.be/1QJHMS2KB94"],
-          },
-          {
-            title: "Tutorial 3",
-            links: ["https://youtu.be/19Y-IrYjMDI"],
-          },
-          {
-            title: "Tutorial 4",
-            links: ["https://youtu.be/1orTxWcMK0M"],
-          },
-          {
-            title: "Tutorial 5",
-            links: ["https://youtu.be/518mQr5ztYM"],
-          },
-          {
-            title: "Tutorial 6",
-            links: ["https://youtu.be/86H2GzTIBjk"],
-          },
-          {
-            title: "Tutorial 7",
-            links: [
-              "https://youtu.be/BO42WvuWhlA",
-              "https://www.youtube.com/watch?v=S0j_vuBPi-I&pp=ygUZYW5zeXMgc3BhY2VjbGFpbSBnZW9tZXRyeQ%3D%3D",
-            ],
-          },
-        ],
-      },
-      {
-        heading: "",
-        resources: [
-          {
-            title: "Tutorial 8",
-            links: [
-              "https://www.youtube.com/watch?v=QlwWahqUz2g&list=PLICzjIuc4UqH3hllQc1kEF19YoBfAkEBQ&index=10&pp=iAQB",
-              "https://youtu.be/-2fmHPz4lN0",
-            ],
-          },
-          {
-            title: "Tutorial 9",
-            links: [
-              "https://www.youtube.com/watch?v=tAgCZbiKP6I&list=PLICzjIuc4UqH3hllQc1kEF19YoBfAkEBQ&index=12&ab_channel=C.Chodhari",
-            ],
-          },
-          {
-            title: "Tutorial 10",
-            links: [
-              "https://www.youtube.com/watch?v=ACIE5-WfdrQ&list=PLICzjIuc4UqH3hllQc1kEF19YoBfAkEBQ&index=13&pp=iAQB",
-            ],
-          },
-          {
-            title: "Tutorial 11",
-            links: [
-              "https://www.youtube.com/watch?v=FuX6Fn00OFI&list=PLICzjIuc4UqH3hllQc1kEF19YoBfAkEBQ&index=14&ab_channel=C.Chodhari",
-            ],
-          },
-          {
-            title: "Tutorial 12",
-            links: [
-              "https://www.youtube.com/watch?v=VYvMimIPGp8&list=PLICzjIuc4UqH3hllQc1kEF19YoBfAkEBQ&index=15&pp=iAQB",
-            ],
-          },
-          {
-            title: "Tutorial 13",
-            links: [
-              "https://www.youtube.com/watch?v=nI20uM8JtRg&list=PLICzjIuc4UqH3hllQc1kEF19YoBfAkEBQ&index=16&ab_channel=C.Chodhari",
-            ],
-          },
-          {
-            title: "Tutorial 14",
-            links: [
-              "https://www.youtube.com/watch?v=RnJ6kHibN5M&list=PLICzjIuc4UqH3hllQc1kEF19YoBfAkEBQ&index=18&ab_channel=C.Chodhari",
-            ],
-          },
-        ],
-      },
-      {
-        heading:
-          "Congratulations, You can call yourself an Ansys Specialist now. Go on you can brag about it in front of friends. But, the real journey begins from here. So practice well and best of luck for your final task and future endeavors. Hope you enjoyed the coursework!",
-        resources: [
-          {
-            title: "Tutorial 15",
-            links: [
-              "https://www.youtube.com/watch?v=N-FwGscw__c&list=PLICzjIuc4UqH3hllQc1kEF19YoBfAkEBQ&index=19&ab_channel=C.Chodhari",
-            ],
-          },
-          {
-            title: "Tutorial 16",
-            links: [
-              "https://www.youtube.com/watch?v=4WPbxu3uplM&list=PLICzjIuc4UqH3hllQc1kEF19YoBfAkEBQ&index=20&ab_channel=C.Chodhari",
-              "https://www.youtube.com/watch?v=70gtfLsH8QI&list=PLICzjIuc4UqH3hllQc1kEF19YoBfAkEBQ&index=21&ab_channel=C.Chodhari",
-            ],
-          },
-          {
-            title: "Tutorial 17",
-            links: [
-              "https://www.youtube.com/watch?v=ExFJkzFNHPU&ab_channel=GraspEngineering",
-            ],
-          },
-        ],
-      },
-    ],
-  },
+  //       resources: [
+  //         {
+  //           title: "Tutorial 0",
+  //           links: ["https://youtu.be/jeSsayhAgf4"],
+  //         },
+  //         {
+  //           title: "Tutorial 1",
+  //           links: ["https://youtu.be/UUTQz9Q8AoI"],
+  //         },
+  //         {
+  //           title: "Tutorial 2",
+  //           links: ["https://youtu.be/1QJHMS2KB94"],
+  //         },
+  //         {
+  //           title: "Tutorial 3",
+  //           links: ["https://youtu.be/19Y-IrYjMDI"],
+  //         },
+  //         {
+  //           title: "Tutorial 4",
+  //           links: ["https://youtu.be/1orTxWcMK0M"],
+  //         },
+  //         {
+  //           title: "Tutorial 5",
+  //           links: ["https://youtu.be/518mQr5ztYM"],
+  //         },
+  //         {
+  //           title: "Tutorial 6",
+  //           links: ["https://youtu.be/86H2GzTIBjk"],
+  //         },
+  //         {
+  //           title: "Tutorial 7",
+  //           links: [
+  //             "https://youtu.be/BO42WvuWhlA",
+  //             "https://www.youtube.com/watch?v=S0j_vuBPi-I&pp=ygUZYW5zeXMgc3BhY2VjbGFpbSBnZW9tZXRyeQ%3D%3D",
+  //           ],
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       heading: "",
+  //       resources: [
+  //         {
+  //           title: "Tutorial 8",
+  //           links: [
+  //             "https://www.youtube.com/watch?v=QlwWahqUz2g&list=PLICzjIuc4UqH3hllQc1kEF19YoBfAkEBQ&index=10&pp=iAQB",
+  //             "https://youtu.be/-2fmHPz4lN0",
+  //           ],
+  //         },
+  //         {
+  //           title: "Tutorial 9",
+  //           links: [
+  //             "https://www.youtube.com/watch?v=tAgCZbiKP6I&list=PLICzjIuc4UqH3hllQc1kEF19YoBfAkEBQ&index=12&ab_channel=C.Chodhari",
+  //           ],
+  //         },
+  //         {
+  //           title: "Tutorial 10",
+  //           links: [
+  //             "https://www.youtube.com/watch?v=ACIE5-WfdrQ&list=PLICzjIuc4UqH3hllQc1kEF19YoBfAkEBQ&index=13&pp=iAQB",
+  //           ],
+  //         },
+  //         {
+  //           title: "Tutorial 11",
+  //           links: [
+  //             "https://www.youtube.com/watch?v=FuX6Fn00OFI&list=PLICzjIuc4UqH3hllQc1kEF19YoBfAkEBQ&index=14&ab_channel=C.Chodhari",
+  //           ],
+  //         },
+  //         {
+  //           title: "Tutorial 12",
+  //           links: [
+  //             "https://www.youtube.com/watch?v=VYvMimIPGp8&list=PLICzjIuc4UqH3hllQc1kEF19YoBfAkEBQ&index=15&pp=iAQB",
+  //           ],
+  //         },
+  //         {
+  //           title: "Tutorial 13",
+  //           links: [
+  //             "https://www.youtube.com/watch?v=nI20uM8JtRg&list=PLICzjIuc4UqH3hllQc1kEF19YoBfAkEBQ&index=16&ab_channel=C.Chodhari",
+  //           ],
+  //         },
+  //         {
+  //           title: "Tutorial 14",
+  //           links: [
+  //             "https://www.youtube.com/watch?v=RnJ6kHibN5M&list=PLICzjIuc4UqH3hllQc1kEF19YoBfAkEBQ&index=18&ab_channel=C.Chodhari",
+  //           ],
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       heading:
+  //         "Congratulations, You can call yourself an Ansys Specialist now. Go on you can brag about it in front of friends. But, the real journey begins from here. So practice well and best of luck for your final task and future endeavors. Hope you enjoyed the coursework!",
+  //       resources: [
+  //         {
+  //           title: "Tutorial 15",
+  //           links: [
+  //             "https://www.youtube.com/watch?v=N-FwGscw__c&list=PLICzjIuc4UqH3hllQc1kEF19YoBfAkEBQ&index=19&ab_channel=C.Chodhari",
+  //           ],
+  //         },
+  //         {
+  //           title: "Tutorial 16",
+  //           links: [
+  //             "https://www.youtube.com/watch?v=4WPbxu3uplM&list=PLICzjIuc4UqH3hllQc1kEF19YoBfAkEBQ&index=20&ab_channel=C.Chodhari",
+  //             "https://www.youtube.com/watch?v=70gtfLsH8QI&list=PLICzjIuc4UqH3hllQc1kEF19YoBfAkEBQ&index=21&ab_channel=C.Chodhari",
+  //           ],
+  //         },
+  //         {
+  //           title: "Tutorial 17",
+  //           links: [
+  //             "https://www.youtube.com/watch?v=ExFJkzFNHPU&ab_channel=GraspEngineering",
+  //           ],
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
   {
     para1:
       "Fusion 360 CAD is a cutting-edge computer-aided design software that empowers engineers, designers, and creators to bring their ideas to life. It offers a comprehensive suite of tools for 3D modeling, simulation, visualization, and collaboration.",
@@ -706,28 +621,85 @@ export const courseData = [
       },
     ],
   },
+  {
+    para1:
+      "ROS (Robot Operating System) is a versatile and powerful framework for building and controlling robots. It provides a collection of software libraries and tools that aid in the development of robotic systems, making it easier to create complex and intelligent robots.",
+    para2:
+      "ROS offers a distributed architecture that allows for seamless communication between various components of a robot, such as ",
+    extra:
+      "sensors, actuators, and processors. With its extensive library of pre-built modules, developers can leverage existing functionality and focus on higher-level tasks. Whether you are working on industrial robots, drones, or autonomous vehicles, ROS provides a robust and flexible platform to accelerate your robotics projects.",
+    weekData: [
+      {
+        // week1
+        heading: "",
+        resources: [
+          {
+            title: "Resources",
+            links: [
+              [
+                "Documentation Link",
+                "https://docs.google.com/document/d/1yx4xrxlvkQpZQSTaVmZOS2_bMR3N1iiWbZ7VJILVXK4/edit",
+              ],
+            ],
+          },
+        ],
+      },
+      {
+        // week2
+        heading: "",
+        resources: [
+          {
+            title: "Resources",
+            links: [
+              [
+                "Documentation Link",
+                "https://docs.google.com/document/d/1mZV5PP3J_277JNucLuArqcUUQGPgOHTEkEMBldWI3_I/edit",
+              ],
+            ],
+          },
+        ],
+      },
+      {
+        // week3
+        heading: "",
+        resources: [
+          {
+            title: "Resources",
+            links: [
+              [
+                "Documentation Link",
+                "https://docs.google.com/document/d/1fDa0qD6duaC5RSNsv6jp48iua_-gtW2sC_Tel-sf8RQ/edit",
+              ],
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export const WeekTask = [
-  [
-    "https://docs.google.com/document/d/16-0DN1IvU9b8s0lsB3iTfQ6PC2urj6EP7FVzABAaZps/edit?usp=sharing",
-    "https://docs.google.com/document/d/1pWgozHe8A__hFGu3-hYFE_ZV_U1qWFXnaCMDpmXEJuo/edit?usp=sharing",
+  
+  
+  [ 
     "https://docs.google.com/document/d/18Jk1W3aPctpjj4MWXnwKpNV9Ts5nTd0BniPQ5FTi25o/edit?usp=sharing",
+    "https://docs.google.com/document/d/16-0DN1IvU9b8s0lsB3iTfQ6PC2urj6EP7FVzABAaZps/edit?usp=sharing",
     "https://docs.google.com/document/d/1jnkoqHIMPQYNu7imsmjB_aNyt9bs0bIVa7aSzrhYaEo/edit?usp=sharing",
-    "https://forms.gle/mTfKsfEwrFqWBXPD7",
+    // "https://forms.gle/mTfKsfEwrFqWBXPD7",
+    "https://docs.google.com/document/d/1pWgozHe8A__hFGu3-hYFE_ZV_U1qWFXnaCMDpmXEJuo/edit?usp=sharing",
   ],
   [
-    "https://forms.gle/mBaNxrajd2w5BGcdA",
-    "https://forms.gle/ZGmkbN9PFyAnqRJ48",
     "https://forms.gle/KjPPVt6KqKTGyi9y6",
+    "https://forms.gle/mBaNxrajd2w5BGcdA",
     "https://forms.gle/y86qtC6grEGjjoG69",
-    "#",
+    // "#",
+    "https://forms.gle/ZGmkbN9PFyAnqRJ48",
   ],
   [
-    "https://docs.google.com/document/d/17oJnbj4Ok2TqvgECVCyERGysO7aZYyl6d-0ih2YgXBs/edit?usp=sharing",
-    "https://drive.google.com/file/d/1cZn4HfjZ5950e79wXc65MvKHHRuHzjro/view?usp=sharing",
     "https://docs.google.com/document/d/1YiqNJdY9O-RZ_a1rJ1yIinLyOnnqVhZGKcnmRUcd738/edit?usp=sharing",
+    "https://docs.google.com/document/d/17oJnbj4Ok2TqvgECVCyERGysO7aZYyl6d-0ih2YgXBs/edit?usp=sharing",
     "https://docs.google.com/document/d/17L1_omlfTGufnQADSTzYoAGDV8ZLwxC85eniVp7t83k/edit?usp=sharing",
-    "https://forms.gle/YnWoEkeG4HVaHvwD9",
+    // "https://forms.gle/YnWoEkeG4HVaHvwD9",
+    "https://drive.google.com/file/d/1cZn4HfjZ5950e79wXc65MvKHHRuHzjro/view?usp=sharing",
   ],
 ];

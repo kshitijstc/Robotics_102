@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 import roboClubImage from '../assets/robo_club.png';
-function Navbar({ bgColor, color }) {
+function Navbar({ bgColor, color}) {
   
   return (
     <nav className='navbar w-full flex px-10 py-10 justify-between items-center' style={{ backgroundColor: bgColor, color: color }}>
@@ -16,9 +16,9 @@ function Navbar({ bgColor, color }) {
         <li>
           <Link to='/leaderboard'>LEADERBOARD</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to='/'>ABOUT</Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   )

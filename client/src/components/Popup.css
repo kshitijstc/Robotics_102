@@ -104,9 +104,9 @@
   line-height: 90%;
 }
 
-.course-link:hover{
+/* .course-link:hover{
   animation: dim 200ms linear 0s 1 alternate forwards;
-}
+} */
 
 .popup__right_weekElementExpand {
   /* transition: all 0.3s ease; */

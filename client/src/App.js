@@ -14,7 +14,7 @@ function App() {
         <Route path="/" element={screenWidth > 760 ? <CourseScreen/> : <MobileView/>} />
         <Route path="/events" element={<CourseScreen/>} />
         <Route path="/leaderboard" element={< LeaderBoard />} />
-        <Route path="/about" element={<Popup expand={true} cardNo={5}/>} />
+        {/* <Route path="/about" element={<Popup expand={true} cardNo={5}/>} /> */}
       </Routes>
     </BrowserRouter>
     </div>
