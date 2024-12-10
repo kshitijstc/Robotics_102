@@ -390,18 +390,19 @@ function Popup({ expand, setExpand, cardNo }) {
             <div className="popup__right_weekElementContainer space-y-4 my-4">
               <WeekElement1 weekNo={"01"} index={0} bgRight={bgRight}/>
               {/* <WeekElement1 weekNo={"01"} index={0} task={true} bgRight={bgRight}/> */}
-              {/* <WeekElement1 weekNo={"02"} index={1} bgRight={bgRight}/> */}
+   {/* */}           {/* <WeekElement1 weekNo={"02"} index={1} bgRight={bgRight}/> */}
               {/* <WeekElement1 weekNo={"02"} index={1} task={true} bgRight={bgRight}/> */}
-              {/* <WeekElement1 weekNo={"03"} index={2} bgRight={bgRight}/> */}
+    {/* */}          {/* <WeekElement1 weekNo={"03"} index={2} bgRight={bgRight}/> */}
               {/* <WeekElement1 weekNo={"03"} index={2} task={true} bgRight={bgRight}/> */}
             </div> 
             : 
+            // For Mobile View
             <div className="popup__right_weekElementContainer space-y-4 my-4">
               <WeekElement weekNo={"01"} index={0} bgRight={bgRight}/>
               {/* <WeekElement weekNo={"01"} index={0} task={true} bgRight={bgRight}/> */}
-              {/* <WeekElement weekNo={"02"} index={1} bgRight={bgRight}/> */}
+    {/* */}          {/* <WeekElement weekNo={"02"} index={1} bgRight={bgRight}/> */}
               {/* <WeekElement weekNo={"02"} index={1} task={true} bgRight={bgRight}/> */}
-              {/* <WeekElement weekNo={"03"} index={2} bgRight={bgRight}/> */}
+    {/* */}          {/* <WeekElement weekNo={"03"} index={2} bgRight={bgRight}/> */}
               {/* <WeekElement weekNo={"03"} index={2} task={true} bgRight={bgRight}/> */}
             </div>}
             
