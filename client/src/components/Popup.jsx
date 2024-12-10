@@ -29,11 +29,7 @@ function Popup({ expand, setExpand, cardNo }) {
     textStroke: `2px ${colorLeft}`,
   };
 
-  
-  
-
-
-  function WeekElement({ weekNo, index, task }) {
+  function WeekElement({ weekNo, index, task }){
     const [showContent, setShowContent] = useState(false);
     const { heading, resources } = weekData[index];
     const handleClick = () => {
@@ -394,9 +390,9 @@ function Popup({ expand, setExpand, cardNo }) {
             <div className="popup__right_weekElementContainer space-y-4 my-4">
               <WeekElement1 weekNo={"01"} index={0} bgRight={bgRight}/>
               {/* <WeekElement1 weekNo={"01"} index={0} task={true} bgRight={bgRight}/> */}
-              {/* <WeekElement1 weekNo={"02"} index={1} bgRight={bgRight}/> */}
+              <WeekElement1 weekNo={"02"} index={1} bgRight={bgRight}/>
               {/* <WeekElement1 weekNo={"02"} index={1} task={true} bgRight={bgRight}/> */}
-              {/* <WeekElement1 weekNo={"03"} index={2} bgRight={bgRight}/> */}
+              <WeekElement1 weekNo={"03"} index={2} bgRight={bgRight}/>
               {/* <WeekElement1 weekNo={"03"} index={2} task={true} bgRight={bgRight}/> */}
             </div> 
             : 
@@ -419,8 +415,9 @@ function Popup({ expand, setExpand, cardNo }) {
             <hr className="border-gray-300" />
             <h1>SUBMISSION</h1>
             <TaskSubmissionElement link={WeekTask[0][cardNo-1]} weekNo={"01"} />
-            {/* <TaskSubmissionElement link={WeekTask[1][cardNo-1]} weekNo={"02"} /> */}
-            {/* <TaskSubmissionElement link={WeekTask[2][cardNo-1]} weekNo={"03"} /> */}
+            {/* Questionnaire */}
+            <TaskSubmissionElement link={WeekTask[1][cardNo-1]} weekNo={"02"} />
+            <TaskSubmissionElement link={WeekTask[2][cardNo-1]} weekNo={"03"} />
           </div>
         </div>
       </div>
