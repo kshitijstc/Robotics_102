@@ -683,10 +683,10 @@ export const WeekTask = [
   
   [ 
     "https://forms.gle/Wt7AQqNUsP9CVSBK6",
-    "https://docs.google.com/document/d/16-0DN1IvU9b8s0lsB3iTfQ6PC2urj6EP7FVzABAaZps/edit?usp=sharing",
-    "https://docs.google.com/document/d/1jnkoqHIMPQYNu7imsmjB_aNyt9bs0bIVa7aSzrhYaEo/edit?usp=sharing",
+    "https://docs.google.com/document/d/11ObhAfquWfvPJ8LVZo2kCogiKcM4b0bXQ6PixF5ikGQ/edit?usp=sharing",
+    "https://docs.google.com/document/d/1epRYr5dSOzJCFEcsu-t90ffyPiviwlraDyHED050isw/edit?usp=sharing",
     // "https://forms.gle/mTfKsfEwrFqWBXPD7",
-    "https://docs.google.com/document/d/1pWgozHe8A__hFGu3-hYFE_ZV_U1qWFXnaCMDpmXEJuo/edit?usp=sharing",
+    "https://docs.google.com/document/d/11XdMvDOYETw5Fd_KCdtwUiJbnK70K12XdF2vQZwkX0A/edit?usp=sharing",
   ],
   [
     "https://forms.gle/iAerzycvVRfej8tJA",
