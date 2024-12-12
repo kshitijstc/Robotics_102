@@ -653,7 +653,7 @@ export const courseData = [
             links: [
               [
                 "Documentation Link",
-                "https://docs.google.com/document/d/1mZV5PP3J_277JNucLuArqcUUQGPgOHTEkEMBldWI3_I/edit",
+                "https://docs.google.com/document/d/18jk-9TTR91YaFFQIKVoifHWS-PdSierMl_kawithJao/edit?usp=sharing",
               ],
             ],
           },
