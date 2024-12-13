@@ -411,14 +411,14 @@ function Popup({ expand, setExpand, cardNo }) {
 
             
           </div>
-          {/* <div className="popup__right_item mt-14 m-10 space-y-2">
+          <div className="popup__right_item mt-14 m-10 space-y-2">
             <h2>03</h2>
             <hr className="border-gray-300" />
             <h1>SUBMISSION</h1>
             <TaskSubmissionElement link={WeekTask[0][cardNo-1]} weekNo={"01"} />
-            <TaskSubmissionElement link={WeekTask[1][cardNo-1]} weekNo={"02"} />
-            <TaskSubmissionElement link={WeekTask[2][cardNo-1]} weekNo={"03"} />
-          </div> */}
+            {/* <TaskSubmissionElement link={WeekTask[1][cardNo-1]} weekNo={"02"} /> */}
+            {/* <TaskSubmissionElement link={WeekTask[2][cardNo-1]} weekNo={"03"} /> */}
+          </div> 
         </div>
       </div>
     </div>
