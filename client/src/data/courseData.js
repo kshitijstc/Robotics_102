@@ -685,15 +685,15 @@ export const WeekTask = [
     "https://forms.gle/Wt7AQqNUsP9CVSBK6",
     "https://docs.google.com/document/d/11ObhAfquWfvPJ8LVZo2kCogiKcM4b0bXQ6PixF5ikGQ/edit?usp=sharing",
     "https://docs.google.com/document/d/1epRYr5dSOzJCFEcsu-t90ffyPiviwlraDyHED050isw/edit?usp=sharing",
-    // "https://forms.gle/mTfKsfEwrFqWBXPD7",
     "https://docs.google.com/document/d/11XdMvDOYETw5Fd_KCdtwUiJbnK70K12XdF2vQZwkX0A/edit?usp=sharing",
   ],
   [
     "https://forms.gle/iAerzycvVRfej8tJA",
-    "https://forms.gle/mBaNxrajd2w5BGcdA",
-    "https://forms.gle/y86qtC6grEGjjoG69",
+    "https://forms.gle/JXuZaGits36Pdgxt7",
+    "https://docs.google.com/document/d/1XTQkYqvBYa8_JPdPBhH1ET9APt-90EU_rOEzyipHFd0/edit?usp=sharing",
     // "#",
-    "https://forms.gle/ZGmkbN9PFyAnqRJ48",
+    "https://docs.google.com/document/d/1KwowTedQjQ11nViZ9W0EXlnlzyjg5WoZUxBcuZwPmd8/edit?usp=sharing",
+   // "https://forms.gle/ZGmkbN9PFyAnqRJ48"
   ],
   [
     "https://docs.google.com/document/d/1YiqNJdY9O-RZ_a1rJ1yIinLyOnnqVhZGKcnmRUcd738/edit?usp=sharing",
