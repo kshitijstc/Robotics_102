@@ -392,7 +392,7 @@ function Popup({ expand, setExpand, cardNo }) {
               {/* <WeekElement1 weekNo={"01"} index={0} task={true} bgRight={bgRight}/> */}
               <WeekElement1 weekNo={"02"} index={1} bgRight={bgRight}/>
               {/* <WeekElement1 weekNo={"02"} index={1} task={true} bgRight={bgRight}/> */}
-    {/* */}          {/* <WeekElement1 weekNo={"03"} index={2} bgRight={bgRight}/> */}
+              <WeekElement1 weekNo={"03"} index={2} bgRight={bgRight}/> 
               {/* <WeekElement1 weekNo={"03"} index={2} task={true} bgRight={bgRight}/> */}
             </div> 
             : 
@@ -402,7 +402,7 @@ function Popup({ expand, setExpand, cardNo }) {
               {/* <WeekElement weekNo={"01"} index={0} task={true} bgRight={bgRight}/> */}
               <WeekElement weekNo={"02"} index={1} bgRight={bgRight}/>
               {/* <WeekElement weekNo={"02"} index={1} task={true} bgRight={bgRight}/> */}
-    {/* */}          {/* <WeekElement weekNo={"03"} index={2} bgRight={bgRight}/> */}
+              <WeekElement weekNo={"03"} index={2} bgRight={bgRight}/>
               {/* <WeekElement weekNo={"03"} index={2} task={true} bgRight={bgRight}/> */}
             </div>}
             
