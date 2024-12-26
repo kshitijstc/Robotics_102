@@ -9,12 +9,16 @@ import { popupDetails } from "../components/themeDetails";
 import { cardDetails } from "../components/themeDetails";
 
 
-function LeaderBoard() {
+function LeaderBoard() 
+{
+
   const screenwidth=window.innerWidth;
   const [active,setActive] = useState(0);
   const { bgLeft,bgRight } = popupDetails[active];
   const {color, bgColor} = cardDetails[active];
-  const LeaderBoardItem = ({ rank, name, points,course }) => {
+
+  const LeaderBoardItem = ({ rank, name, points,course }) => 
+	{
 		return (
 			<div className="leaderBoard__stats_content_item p-2 my-1">
 				<h1>{rank}</h1>
@@ -45,8 +49,8 @@ function LeaderBoard() {
 					})}
 						</div> */}
 						<div className="leaderBoard__stats_content my-2 spy1 flex-1">
-						{leaderData.map((item, index) => {
-							return <LeaderBoardItem key={index} rank={index+1} name={item.name} points={item.total} course={item.course} />
+						{leaderData.map((item, index) => { // added "index%3 + 1" to change rank numbers into 1,2,3 for each course
+							return <LeaderBoardItem key={index} rank={(index)%3 + 1} name={item.name} points={item.total} course={item.course} />
 						})}
 						</div>
           			</div>
