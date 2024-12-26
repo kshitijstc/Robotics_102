@@ -131,10 +131,10 @@ export const courseData = [
               title: "future",
               links: ["https://youtu.be/OfGxbxUCa2k?si=Vl8hResCtUSEzr_S"],
             },
-            {
-              title: "Summary",
-              links: ["https://youtu.be/jPOAS7uCODQ"],
-            },
+            // {
+            //   title: "Summary",
+            //   links: ["https://youtu.be/jPOAS7uCODQ"],
+            // },
             
           ],
         },
