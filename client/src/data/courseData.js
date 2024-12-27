@@ -696,10 +696,10 @@ export const WeekTask = [
    // "https://forms.gle/ZGmkbN9PFyAnqRJ48"
   ],
   [
-    "https://docs.google.com/document/d/1YiqNJdY9O-RZ_a1rJ1yIinLyOnnqVhZGKcnmRUcd738/edit?usp=sharing",
-    "https://docs.google.com/document/d/17oJnbj4Ok2TqvgECVCyERGysO7aZYyl6d-0ih2YgXBs/edit?usp=sharing",
-    "https://docs.google.com/document/d/17L1_omlfTGufnQADSTzYoAGDV8ZLwxC85eniVp7t83k/edit?usp=sharing",
+    "https://drive.google.com/file/d/1hCKh9HH1nGE50-C8dFOJqcp_40T7R7fa/view?usp=sharing",
+    "https://docs.google.com/document/d/1s5wXsS3wEHqdMTkOZV6l_cX4f4Qgb1MNzzN3oCptDEk/edit?usp=sharing",
+    "https://docs.google.com/document/d/13Mb5a3fkgL0cS7S7ucXBKpf8cI7cuWQHfC6YmkkEHV8/edit?usp=sharing",
     // "https://forms.gle/YnWoEkeG4HVaHvwD9",
-    "https://drive.google.com/file/d/1cZn4HfjZ5950e79wXc65MvKHHRuHzjro/view?usp=sharing",
+    "https://docs.google.com/document/d/1cD-mDTEZ6U49ZPGI9ApxLYQ3HS6pMk5dK4aODyC4-_4/edit?usp=sharing",
   ],
 ];

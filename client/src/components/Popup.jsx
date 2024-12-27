@@ -262,6 +262,20 @@ function Popup({ expand, setExpand, cardNo }) {
               showContent ? "show" : ""
             }`}
           >
+            { link===WeekTask[2][0] && weekNo==="03" &&
+              <div className=" p-4">
+              <p className="text-xl ">
+                <a
+                  className="underline"
+                  href="https://drive.google.com/file/d/1CLSldgWoW-KNdFjLELe_srfkieBYEPnx/view?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                Summary
+                </a>
+              </p>
+            </div>
+            }
             <div className=" p-4  mt-2">
               <p className="text-xl">
                 Task Submission -
@@ -417,7 +431,7 @@ function Popup({ expand, setExpand, cardNo }) {
             <h1>SUBMISSION</h1>
             <TaskSubmissionElement link={WeekTask[0][cardNo-1]} weekNo={"01"} />
             <TaskSubmissionElement link={WeekTask[1][cardNo-1]} weekNo={"02"} />
-            {/* <TaskSubmissionElement link={WeekTask[2][cardNo-1]} weekNo={"03"} /> */}
+            <TaskSubmissionElement link={WeekTask[2][cardNo-1]} weekNo={"03"} />
           </div> 
         </div>
       </div>
