@@ -1,58 +1,64 @@
 const ldata =[
   {
-    name:"Shraddha Nigam",
-    course:"IOT",
-    total:60,
-  },
-  {
     name:"Purushottam",
     course:"IOT",
-    total:60,
+    total:97,
   },
   {
-    name:"Gautam Rao",
+    name:"Shraddha Nigam",
     course:"IOT",
-    total:60,
+    total:97,
+  },
+  
+  {
+    name:"Manthan kumar Bagade",
+    course:"IOT",
+    total:96,
+  },
+  // {
+  //   name:"Gautam Rao",
+  //   course:"IOT",
+  //   total:60,
+  // },
+  {
+    name:"Shikha Sinha",
+    course:"OpenCV",
+    total:95.2,
   },
   {
-    name:"Hardik Agarwal",
+    name:"Nidhi Maria Santosh",
+    course:"OpenCV",
+    total:76.4,
+  },
+  {
+    name:"Hardik Agarwal ",
     course:"OpenCV",
     total:66.6,
   },
   {
-    name:"Purushottam",
-    course:"OpenCV",
-    total:63.6,
-  },
-  {
-    name:"Shikha Sinha",
-    course:"OpenCV",
-    total:55.2,
-  },
-  {
     name:"Ananya Dongsarwar",
     course:"Fusion",
-    total:48,
-  },
-  {
-    name:"Purushottam",
-    course:"Fusion",
-    total:45,
+    total:84,
   },
   {
     name:"Rehaan Ranjan",
     course:"Fusion",
-    total:42,
+    total:82,
+  },
+  {
+    name:"Purushottam",
+    course:"Fusion",
+    total:81,
   },
   {
     name:"Asmit Kumar",
     course:"ROS",
-    total:57,
+    total:97,
   },
   {
     name:"Purushottam",
     course:"ROS",
-    total:30,
+    total:92,
   },
   {
     name:"Dhanesh Aravind",
